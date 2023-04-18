@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Owner("Alena Shomanova")
-@Tag("UITests")
+@Tag("MainPageTests")
 public class MainPageTests extends TestBase {
 
     @Story("The main page logo should be visible")
@@ -17,6 +17,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Story("There are 7 services listed in the OUR SERVICES section")
+    @Test
     void ourServicesAmountTest() {
         mainPage.acceptCookies()
                 .verifyOurServicesAmount();

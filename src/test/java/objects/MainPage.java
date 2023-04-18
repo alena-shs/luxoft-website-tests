@@ -1,6 +1,5 @@
 package objects;
 
-import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
@@ -17,6 +16,7 @@ public class MainPage {
             ourServicesBlocks = $(".container-services").$$(".col");
 
     @Step("Open the main page")
+    @Deprecated
     public MainPage openMainPage() {
         open("https://www.luxoft.com/");
         return this;

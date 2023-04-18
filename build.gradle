@@ -36,3 +36,9 @@ test {
     systemProperties(System.getProperties())
 
 }
+
+task all_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("MainPageTests", "SearchTests")
+    }
+}
