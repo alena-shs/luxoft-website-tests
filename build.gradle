@@ -37,8 +37,14 @@ test {
 
 }
 
-task all_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("MainPageTests", "SearchTests")
+tasks.withType(Test) {
+    useJUnitPlatform()
+    systemProperties(System.getProperties())
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
     }
 }
