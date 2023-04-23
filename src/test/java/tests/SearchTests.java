@@ -6,6 +6,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 @Owner("Alena Shomanova")
 @Story("Popular keyword search")
 @Tag("SearchTests")
@@ -33,5 +35,25 @@ public class SearchTests extends TestBase {
         mainPage.initiateSearchWithText(searchText);
         searchPage.verifySearchItemsAmountText();
         searchPage.verifySearchItemsAmount();
+    }
+
+    @Test
+    void test1() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test2() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test3() {
+        assertTrue(false);
+    }
+
+    @Test
+    void test4() {
+        assertTrue(false);
     }
 }
