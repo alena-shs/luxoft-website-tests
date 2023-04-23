@@ -2,10 +2,7 @@ package tests;
 
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 @Owner("Alena Shomanova")
 @Story("The main page's content")
@@ -34,15 +31,24 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @Disabled
     void RandomTest() {
+        Assertions.assertTrue(false);
+    }
+
+    @Test
+    @Disabled
+    void RandomTest2() {
+        Assertions.assertTrue(false);
     }
 
     @Test
     void RandomTest1() {
+        Assertions.assertTrue(false);
     }
 
     @Test
     void RandomTest3() {
-        Assertions.fail();
+        Assertions.assertTrue(false);
     }
 }
