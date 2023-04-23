@@ -34,7 +34,7 @@ public class MainPage {
 
     @Step("Check if there are 4 official social network icons")
     public void verifySocialNetworkAmount() {
-        socialNetworks.shouldHave(size(5));
+        socialNetworks.shouldHave(size(4));
     }
 
     @Step("Check if there are 7 blocks in Our Services section")
