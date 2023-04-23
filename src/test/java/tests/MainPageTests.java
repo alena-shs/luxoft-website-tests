@@ -29,26 +29,4 @@ public class MainPageTests extends TestBase {
         mainPage.acceptCookies()
                 .verifySocialNetworkAmount();
     }
-
-    @Test
-    @Disabled
-    void RandomTest() {
-        Assertions.assertTrue(false);
-    }
-
-    @Test
-    @Disabled
-    void RandomTest2() {
-        Assertions.assertTrue(false);
-    }
-
-    @Test
-    void RandomTest1() {
-        Assertions.assertTrue(false);
-    }
-
-    @Test
-    void RandomTest3() {
-        Assertions.assertTrue(false);
-    }
 }
