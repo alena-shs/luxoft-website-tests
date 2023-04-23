@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Owner("Alena Shomanova")
-@Story("Make a search with a popular keyword")
+@Story("Popular keyword search")
 @Tag("SearchTests")
 public class SearchTests extends TestBase {
-    @DisplayName("The search header displays the correct text")
+    @DisplayName("The search header text correctness")
     @Test
     void searchHeaderCorrectText() {
         String searchText = "QA";
@@ -26,7 +26,7 @@ public class SearchTests extends TestBase {
         searchPage.verifyPageNumberOne();
     }
 
-    @DisplayName("The search first page has 10 items")
+    @DisplayName("The correct amount of items on the search first page")
     @Test
     void searchFirstPageAmountTest() {
         String searchText = "QA";
