@@ -1,6 +1,6 @@
 # Automated test set for Luxoft official website
-<img width=50% align="middle" title="LUXOFT" src="images/luxoft-new-white.svg">
-
+<p align="center"><img width=30% title="LUXOFT" src="images/luxoft-new-white.svg">
+</p>
 
 ## :page_with_curl:	Contents
 + [Test cases run](#test-cases-run)
