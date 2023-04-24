@@ -3,15 +3,15 @@
 </p>
 
 ## :page_with_curl:	Contents
-+ [Test cases run](#test-cases-run)
-+ [Instruments used](#instruments-used)
-+ [How to run these tests](#how-to-run-these-tests)
-    + [Using console](#using-the-console)
++ [Test cases run](#runner-test-cases-run)
++ [Instruments used](#toolbox-instruments-used)
++ [How to run these tests](#compass-how-to-run-these-tests)
+    + [Using command prompt](#using-command-prompt)
     + [Using Jenkins](#using-jenkins)
-+ [Final report in Allure Reports](#final-report-in-allure-reports)
-+ [Allure TestOps integration](#allure-testops-integration)
-+ [Test results](#test-results)
-+ [Jira integration](#jira-integration)
++ [Final report in Allure Reports](#bar_chart-final-report-in-allure-reports)
++ [Allure TestOps integration](#dart-allure-testops-integration)
++ [Test results](#trophy-test-results)
++ [Jira integration](#ticket--jira-integration)
 
 ## :runner: Test cases run
 ### Automated test cases
@@ -66,7 +66,7 @@ Please note that the following methods will run the tests with the following par
 + Browser version: **100.0**
 + Browser size: **1920x1080**
 
-### Using the console
+### Using command prompt
 To run the automated tests:
 ```bash
 gradle clean test 
@@ -179,7 +179,7 @@ There's a video attachment for each test available.
 
 
 
-# [Jira](https://jira.autotests.cloud/) integration
+# :ticket: [Jira](https://jira.autotests.cloud/) integration
 
 ### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-685)
 <p align="center">
