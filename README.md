@@ -11,7 +11,7 @@
 + [Final report in Allure Reports](#bar_chart-final-report-in-allure-reports)
 + [Allure TestOps integration](#dart-allure-testops-integration)
 + [Test results](#trophy-test-results)
-+ [Jira integration](#ticket--jira-integration)
++ [Jira integration](#ticket-jira-integration)
 
 ## :runner: Test cases run
 ### Automated test cases
