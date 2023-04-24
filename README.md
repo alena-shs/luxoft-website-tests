@@ -100,7 +100,7 @@ The main page of the Allure report contains the following information blocks:
 >- <code><strong>*SUITES*</strong></code> - displays the distribution of test results across test suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays the distribution of failed tests sorted by defect types
 <p align="center">
-  <img src="images/allure distributed.png" alt="Allure Report" width="650">
+  <img src="images/allure distributed.PNG" alt="Allure Report" width="650">
 </p>
 
 ### List of tests with a description of steps and visualization of results
