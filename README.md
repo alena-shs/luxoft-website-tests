@@ -4,13 +4,13 @@
 
 ## :page_with_curl:	Contents
 + [Test cases run](#test-cases-run)
-+ [Instruments](#instrumentsused--instruments-used)
++ [Instruments](#instruments-used)
 + [How to run the test with Jenkins](#how-to-run-these-tests)
     + [Using console](#using-the-console)
     + [Using Jenkins](#using-jenkins)
 + [Final report in Allure Reports](#final-report-in-allure-reports)
 + [Allure TestOps integration](#allure-testops-integration)
-+ [Test resгlts](#test-results)
++ [Test results](#test-results)
 <!-- + [Интеграция с Jira](#Jira) -->
 
 ## Test cases run
@@ -32,7 +32,7 @@
   - [x] The search header says there are no results for a search with random symbols
 
 
-# :instruments_used: Instruments used
+# Instruments used
 <p  align="center">
   <code><img width="5%" title="IntelliJ IDEA" src="images/IDEA-logo.svg"></code>
   <code><img width="5%" title="Java" src="images/java-logo.svg"></code>
@@ -83,7 +83,7 @@ The environment is set up for Russian language, to run it please use the button 
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
 <p  align="center">
-<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="850">
+<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="650">
 </p>
 
 
