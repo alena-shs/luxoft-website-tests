@@ -3,17 +3,17 @@
 
 
 ## :page_with_curl:	Contents
-+ [Test cases run](#-testcases--test-cases-run)
-+ [Instruments](#-instrumentsused--instruments-used)
-+ [How to run the test with Jenkins](#HowToRun)
-    + [Using console](#Console)
-    + [Using Jenkins](#Jenkins)
-+ [Final report in Allure Reports](#AllureReports)
-+ [Allure TestOps integration](#AllureTestOps)
-+ [Test reslts](#Results)
++ [Test cases run](#test-cases-run)
++ [Instruments](#instrumentsused--instruments-used)
++ [How to run the test with Jenkins](#how-to-run-these-tests)
+    + [Using console](#using-the-console)
+    + [Using Jenkins](#using-jenkins)
++ [Final report in Allure Reports](#final-report-in-allure-reports)
++ [Allure TestOps integration](#allure-testops-integration)
++ [Test resгlts](#test-results)
 <!-- + [Интеграция с Jira](#Jira) -->
 
-## :testcases: Test cases run
+## Test cases run
 ### Automated test cases
 - Main page
   - [x] The main page logo visibility
