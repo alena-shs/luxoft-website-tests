@@ -123,7 +123,7 @@ This page presents the standard distribution of the tests run by user stories an
 
 ### Project's test plans
 <p align="center">
-  <img src="images/allure_testplans.png" alt="Test plans" width="650">
+  <img src="images/allure_testplans.PNG" alt="Test plans" width="650">
 </p>
 
 #### Manual test cases
