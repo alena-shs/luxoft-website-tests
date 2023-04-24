@@ -1,4 +1,4 @@
-# :crystal_ball: Automated test set for Luxoft official website
+# :crystal_ball: Automated tests for Luxoft's official website
 <p align="center"><img width=30% title="LUXOFT" src="images/luxoft-new-white.svg">
 </p>
 
@@ -8,7 +8,7 @@
 + [How to run these tests](#compass-how-to-run-these-tests)
     + [Using command prompt](#using-command-prompt)
     + [Using Jenkins](#using-jenkins)
-+ [Final report in Allure Reports](#bar_chart-final-report-in-allure-reports)
++ [The final report in Allure Reports](#bar_chart-final-report-in-allure-reports)
 + [Allure TestOps integration](#dart-allure-testops-integration)
 + [Test results](#trophy-test-results)
 + [Jira integration](#ticket-jira-integration)
@@ -28,7 +28,7 @@
   - [x] The header navigation has clickable links
   - [x] The header navigation hovering initiates a dropdown menu
 - Search page
-  - [x] No items shown for a search with random symbols
+  - [x] No items are shown for a search with random symbols
   - [x] The search header says there are no results for a search with random symbols
 
 
@@ -53,7 +53,7 @@
 + **Selenide** framework was used for writing the automated tests.
 + **JUnit 5** is used as a unit testing framework.
 + **Gradle** is used to build the project.
-+ **Jenkins** is used to run the tests.
++ **Jenkins** is used for running the tests.
 + **Selenoid** is used to launch browsers in **Docker** containers.
 + **Allure Report** is used to visualize test results.
 + **Telegram API** is used for receiving the final report via Telegram Bot.
@@ -79,7 +79,7 @@ allure serve build/allure-results
 ### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)
 
 To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/), specially created for this project.
-The environment is set up for Russian language, to run it please use the button with an :arrow_forward:.
+The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
 <p  align="center">
