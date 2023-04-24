@@ -126,7 +126,7 @@ This page presents the standard distribution of the tests run by user stories an
 
 #### Manual test cases
 <p align="center">
-  <img src="images/testops_testplan1.png" alt="Manual test cases" width="750">
+  <img src="images/testops_testplan1.PNG" alt="Manual test cases" width="750">
 </p>
 
 #### Automated test cases
@@ -159,17 +159,17 @@ This page presents the standard distribution of the tests run by user stories an
 
 ### Ticket linked with Allure TestOps defect
 <p align="center">
-  <img src="images/jira-issue.png" alt="The defect in Jira" width="750">
+  <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">
 </p>
 
 ###  Main page content layout Jira task
 <p align="center">
-  <img src="images/jira-task-main.png" alt="The main page layout task" width="750">
+  <img src="images/jira-task-main.PNG" alt="The main page layout task" width="750">
 </p>
 
 ###  Search from the main page Jira task
 <p align="center">
-  <img src="images/jira-task-search.png" alt="Search from the main page task" width="750">
+  <img src="images/jira-task-search.PNG" alt="Search from the main page task" width="750">
 </p>
 
 
