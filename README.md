@@ -2,8 +2,8 @@
 <img width=50% align="middle" title="LUXOFT" src="images/luxoft-new-white.svg">
 
 
-## Contents
-+ [Introduction](#Description)
+## :page_with_curl:	Contents
++ [Introduction](#-testcases--test-cases-run)
 + [Instruments](#Technology)
 + [How to run the test with Jenkins](#HowToRun)
     + [Using console](#Console)
@@ -13,7 +13,7 @@
 + [Test reslts](#Results)
 <!-- + [Интеграция с Jira](#Jira) -->
 
-## <a name="Description">Test cases run</a>
+## :testcases: Test cases run
 ### Automated test cases
 - [x] 
 ### Manual test cases
