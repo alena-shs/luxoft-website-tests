@@ -4,8 +4,8 @@
 
 ## :page_with_curl:	Contents
 + [Test cases run](#test-cases-run)
-+ [Instruments](#instruments-used)
-+ [How to run the test with Jenkins](#how-to-run-these-tests)
++ [Instruments used](#instruments-used)
++ [How to run these tests](#how-to-run-these-tests)
     + [Using console](#using-the-console)
     + [Using Jenkins](#using-jenkins)
 + [Final report in Allure Reports](#final-report-in-allure-reports)
@@ -83,7 +83,7 @@ The environment is set up for Russian language, to run it please use the button 
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
 <p  align="center">
-<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="650">
+<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="550">
 </p>
 
 
@@ -155,17 +155,31 @@ This page presents the standard distribution of the tests run by user stories an
 </p>
 
 
+# [Jira](https://jira.autotests.cloud/) integration
 
-<!-- # <a name="Jira">[Jira](https://jira.autotests.cloud/) integration</a> -->
+### Ticket linked with Allure TestOps defect
+<p align="center">
+  <img src="images/jira-issue.png" alt="The defect in Jira" width="750">
+</p>
+
+###  Main page content layout Jira task
+<p align="center">
+  <img src="images/jira-task-main.png" alt="The main page layout task" width="750">
+</p>
+
+###  Search from the main page Jira task
+<p align="center">
+  <img src="images/jira-task-search.png" alt="Search from the main page task" width="750">
+</p>
 
 
 
 # <a name="Results">Test results</a>
 
 ### Selenoid sample run demo
+There's a video attachment for each test available.
 <p align="center">
-    <img src="images/videoUI.jpg" alt="defects" width="900">
-<!--     <video src='images/videoMob.mp4' width=450/> -->
+  <img title="Selenoid Video" src="images/sample-video-web.gif">
 </p>
 
 ### Telegram notification example
