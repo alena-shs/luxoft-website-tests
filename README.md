@@ -67,10 +67,11 @@ allure serve build/allure-results
 ### <a name="Jenkins">Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
 
 To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/), specially created for this project.
-The environment is set up for Russian language, to run it please use the button on the screenshot below.
+The environment is set up for Russian language, to run it please use the button with an :arrow_forward:.
+You can see the results via Allure Reports, or use the link to Allure TestOps.
 
 <p  align="center">
-<img src="images/Run test.png" alt="How to run the tests with Jenkins" width="850">
+<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="850">
 </p>
 
 
@@ -87,11 +88,11 @@ The main page of the Allure report contains the following information blocks:
 >- <code><strong>*SUITES*</strong></code> - displays the distribution of test results across test suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays the distribution of failed tests sorted by defect types
 <p align="center">
-  <img src="images/Allure Report.png" alt="Allure Report" width="650">
+  <img src="images/allure distributed.png" alt="Allure Report" width="650">
 </p>
 
 ### List of tests with a description of steps and visualization of results
-This page presents the standard distribution of the tests run by user stories, test suites, and Java classes from the code.
+This page presents the standard distribution of the tests run by user stories and test suites.
 
 <p align="center">
   <img src="images/Allure Report steps.png" alt="Allure Report" width="650">
@@ -106,9 +107,24 @@ This page presents the standard distribution of the tests run by user stories, t
   <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="650">
 </p>
 
-### The dashboard for different test types
+### Project's test plans
 <p align="center">
-  <img src="images/allureTestOPS dashboards test types.png" alt="dashboards test types" width="650">
+  <img src="images/allure_testplans.png" alt="Test plans" width="650">
+</p>
+
+#### Manual test cases
+<p align="center">
+  <img src="images/testops_testplan1.png" alt="Manual test cases" width="750">
+</p>
+
+#### Automated test cases
+<p align="center">
+  <img src="images/testops_testplan2.PNG" alt="Manual test cases" width="750">
+</p>
+
+### All test cases
+<p align="center">
+  <img src="images/Test cases.png" alt="test cases" width="750">
 </p>
 
 ### Launches
@@ -119,11 +135,6 @@ This page presents the standard distribution of the tests run by user stories, t
 ### Launch details
 <p align="center">
   <img src="images/allureTestOPS launch.png" alt="launch" width="750">
-</p>
-
-### Test cases
-<p align="center">
-  <img src="images/Test cases.png" alt="test cases" width="750">
 </p>
 
 ### Defects

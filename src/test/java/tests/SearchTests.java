@@ -13,7 +13,7 @@ public class SearchTests extends TestBase {
     @DisplayName("The search header text correctness")
     @Test
     void searchHeaderCorrectText() {
-        String searchText = "QA";
+        String searchText = "fdfsfgrytytyj";
         mainPage.initiateSearchWithText(searchText);
         searchPage.verifyHeaderText(searchText);
     }
