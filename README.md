@@ -3,8 +3,8 @@
 
 
 ## :page_with_curl:	Contents
-+ [Introduction](#-testcases--test-cases-run)
-+ [Instruments](#Technology)
++ [Test cases run](#-testcases--test-cases-run)
++ [Instruments](#-instrumentsused--instruments-used)
 + [How to run the test with Jenkins](#HowToRun)
     + [Using console](#Console)
     + [Using Jenkins](#Jenkins)
@@ -15,12 +15,24 @@
 
 ## :testcases: Test cases run
 ### Automated test cases
-- [x] 
+- Main page
+  - [x] The main page logo visibility
+  - [x] The correct amount of services listed in the OUR SERVICES section
+  - [x] The correct amount of social media links in the footer
+- Search page
+  - [x] The search results start from the first page
+  - [x] The search header text correctness
+  - [x] The correct amount of items on the search first page
 ### Manual test cases
-- [x] 
+- Main page
+  - [x] The header navigation has clickable links
+  - [x] The header navigation hovering initiates a dropdown menu
+- Search page
+  - [x] No items shown for a search with random symbols
+  - [x] The search header says there are no results for a search with random symbols
 
 
-# <a name="Technology">Instruments used</a>
+# :instruments_used: Instruments used
 <p  align="center">
   <code><img width="5%" title="IntelliJ IDEA" src="images/IDEA-logo.svg"></code>
   <code><img width="5%" title="Java" src="images/java-logo.svg"></code>
