@@ -1,4 +1,4 @@
-# Automated test set for Luxoft official website
+# :crystal_ball: Automated test set for Luxoft official website
 <p align="center"><img width=30% title="LUXOFT" src="images/luxoft-new-white.svg">
 </p>
 
@@ -11,9 +11,9 @@
 + [Final report in Allure Reports](#final-report-in-allure-reports)
 + [Allure TestOps integration](#allure-testops-integration)
 + [Test results](#test-results)
-<!-- + [Интеграция с Jira](#Jira) -->
++ [Jira integration](#jira-integration)
 
-## Test cases run
+## :runner: Test cases run
 ### Automated test cases
 - Main page
   - [x] The main page logo visibility
@@ -32,7 +32,7 @@
   - [x] The search header says there are no results for a search with random symbols
 
 
-# Instruments used
+# :toolbox: Instruments used
 <p  align="center">
   <code><img width="5%" title="IntelliJ IDEA" src="images/IDEA-logo.svg"></code>
   <code><img width="5%" title="Java" src="images/java-logo.svg"></code>
@@ -60,13 +60,13 @@
 
 
 
-# <a name="HowToRun">How to run these tests</a>
+# :compass: How to run these tests
 Please note that the following methods will run the tests with the following parameters:
 + Browser: **Google Chrome**
 + Browser version: **100.0**
 + Browser size: **1920x1080**
 
-### <a name="Console">Using the console</a>
+### Using the console
 To run the automated tests:
 ```bash
 gradle clean test 
@@ -76,20 +76,20 @@ To get the report:
 allure serve build/allure-results
 ```
 
-### <a name="Jenkins">Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
+### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)
 
 To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/), specially created for this project.
 The environment is set up for Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
 <p  align="center">
-<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="550">
+<img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="500">
 </p>
 
 
-# <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
+# :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
 
-#### Общая информация
+#### Overview
 The main page of the Allure report contains the following information blocks:
 
 >- <code><strong>*ALLURE REPORT*</strong></code> - displays the following info for the given run:
@@ -112,7 +112,9 @@ This page presents the standard distribution of the tests run by user stories an
 
 
 
-# <a name="AllureTestOps">[Allure TestOps](https://allure.autotests.cloud/project/2195/) integration</a>
+# :dart: [Allure TestOps](https://allure.autotests.cloud/project/2195/) integration
+
+> [AllureTestOps project link](https://allure.autotests.cloud/project/2195) (access request: admin@qa.guru)
 
 ### The main dashboard
 <p align="center">
@@ -155,28 +157,16 @@ This page presents the standard distribution of the tests run by user stories an
 </p>
 
 
-# [Jira](https://jira.autotests.cloud/) integration
 
-### Ticket linked with Allure TestOps defect
+# :trophy: Test results
+
+### Example of a report of an autotest
+
 <p align="center">
-  <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">
+  <img src="images/allureTestOPS result demo.png" alt="Results demo" width="750">
 </p>
 
-###  Main page content layout Jira task
-<p align="center">
-  <img src="images/jira-task-main.PNG" alt="The main page layout task" width="750">
-</p>
-
-###  Search from the main page Jira task
-<p align="center">
-  <img src="images/jira-task-search.PNG" alt="Search from the main page task" width="750">
-</p>
-
-
-
-# <a name="Results">Test results</a>
-
-### Selenoid sample run demo
+### Video attachment example
 There's a video attachment for each test available.
 <p align="center">
   <img title="Selenoid Video" src="images/sample-video-web.gif">
@@ -185,4 +175,23 @@ There's a video attachment for each test available.
 ### Telegram notification example
 <p align="center">
 <img src="images/tlgrm.png" alt="Telegram" width="550">
+</p>
+
+
+
+# [Jira](https://jira.autotests.cloud/) integration
+
+### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-685)
+<p align="center">
+  <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">
+</p>
+
+###  [Main page content layout Jira task](https://jira.autotests.cloud/browse/HOMEWORK-677)
+<p align="center">
+  <img src="images/jira-task-main.PNG" alt="The main page layout task" width="750">
+</p>
+
+###  [Search from the main page Jira task](https://jira.autotests.cloud/browse/HOMEWORK-678)
+<p align="center">
+  <img src="images/jira-task-search.PNG" alt="Search from the main page task" width="750">
 </p>
