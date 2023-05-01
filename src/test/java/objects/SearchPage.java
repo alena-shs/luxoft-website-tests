@@ -5,16 +5,15 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.Condition.exactText;
-import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class SearchPage {
     private final SelenideElement searchHeader = $(".search-results__header h3"),
-            activePage = $("nav[aria-label$='Search page navigation'] .active"),
+            activePage = $(".pagination-container .active-page"),
             searchResultsAmountText = $(".search-results__results--total");
-    private final ElementsCollection searchResults = $$(".search-results__results--item");
+    private final ElementsCollection searchResults = $$(".search-results__results--item h5");
 
     @Step("Verify that the header text is: Results for \"{searchText}\"")
     public void verifyHeaderText(String searchText) {
