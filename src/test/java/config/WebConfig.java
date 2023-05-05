@@ -2,9 +2,7 @@ package config;
 
 import org.aeonbits.owner.Config;
 
-@Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "system:properties",
         "classpath:${env}.properties"
 })
 public interface WebConfig extends Config {
@@ -20,8 +18,11 @@ public interface WebConfig extends Config {
     @DefaultValue("1920x1080")
     String browserSize();
 
-    @Key("remoteWebDriverUrl")
-    String remoteWebDriverUrl();
+    @Key("remoteUrl")
+    String remoteUrl();
+
+    @Key("isRemote")
+    boolean isRemote();
 
     @Key("baseUrl")
     @DefaultValue("https://luxoft.com")

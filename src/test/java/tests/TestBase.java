@@ -1,5 +1,4 @@
 package tests;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import config.ProjectConfiguration;
@@ -16,14 +15,14 @@ import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
+    static ProjectConfiguration projectConfiguration = new ProjectConfiguration();
     MainPage mainPage = new MainPage();
     SearchPage searchPage = new SearchPage();
 
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        ProjectConfiguration.configure();
+        projectConfiguration.configure();
     }
 
     @BeforeEach
