@@ -61,15 +61,16 @@
 
 
 # :compass: How to run these tests
-Please note that the following methods will run the tests with the following parameters:
-+ Browser: **Google Chrome**
-+ Browser version: **100.0**
-+ Browser size: **1920x1080**
 
 ### Using command prompt
+Please note that the following method will run the tests with the following parameters:
++ Browser: **Google Chrome**
++ Browser version: **112.0**
++ Browser size: **1920x1080**
+
 To run the automated tests:
 ```bash
-gradle clean test 
+gradle clean test -Denv='local'
 ```
 To get the report:
 ```bash
@@ -77,6 +78,11 @@ allure serve build/allure-results
 ```
 
 ### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)
+
+Please note that the following method will run the tests with the following parameters:
++ Browser: **Google Chrome**
++ Browser version: **100.0**
++ Browser size: **1920x1080**
 
 To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/), specially created for this project.
 The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
