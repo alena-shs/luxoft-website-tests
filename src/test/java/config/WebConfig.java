@@ -18,9 +18,6 @@ public interface WebConfig extends Config {
     @DefaultValue("1920x1080")
     String browserSize();
 
-    @Key("remoteUrl")
-    String remoteUrl();
-
     @Key("isRemote")
     boolean isRemote();
 
