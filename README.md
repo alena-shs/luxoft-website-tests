@@ -105,6 +105,11 @@ You can see the results via Allure Reports, or use the link to Allure TestOps.
 <img src="images/jenkins.png" alt="How to run the tests with Jenkins" width="500">
 </p>
 
+The following page will open. You can keep the default credentials and press the indicated button directly.
+
+<p  align="center">
+<img src="images/jenkins-parameters.png" alt="How to run the tests with Jenkins" width="500">
+</p>
 
 # :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
 
