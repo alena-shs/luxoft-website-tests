@@ -63,7 +63,8 @@
 # :compass: How to run these tests
 
 ### Using command prompt
-Please note that the following method will run the tests with the following parameters:
+#### Locally
+Please note that the following method will run the tests with the following parameters: (can be changed manually at src/test/resources/remote.properties)
 + Browser: **Google Chrome**
 + Browser version: **112.0**
 + Browser size: **1920x1080**
@@ -77,14 +78,26 @@ To get the report:
 allure serve build/allure-results
 ```
 
-### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)
+#### Remotely
+To run the automated tests:
+```bash
+gradle clean test -Dlogin=user1 -Dpassword=1234 
+```
+To get the report:
+```bash
+allure serve build/allure-results
+```
 
-Please note that the following method will run the tests with the following parameters:
+### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-LuxoftWebsiteTests/)
+
+> Jenkins access request: admin@qa.guru
+
+Please note that the following method will run the tests with the following default parameters:
 + Browser: **Google Chrome**
 + Browser version: **100.0**
 + Browser size: **1920x1080**
 
-To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/), specially created for this project.
+To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-LuxoftWebsiteTests/), specially created for this project. ()
 The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
@@ -186,6 +199,8 @@ There's a video attachment for each test available.
 
 
 # :ticket: [Jira](https://jira.autotests.cloud/) integration
+
+> Jira access request: admin@qa.guru
 
 ### [Ticket linked with Allure TestOps defect](https://jira.autotests.cloud/browse/HOMEWORK-685)
 <p align="center">
