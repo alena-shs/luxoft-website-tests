@@ -21,6 +21,7 @@ public class MainPage {
         open("https://www.luxoft.com/");
         return this;
     }
+
     @Step("Accept all the cookies")
     public MainPage acceptCookies() {
         $("#onetrust-accept-btn-handler").click();

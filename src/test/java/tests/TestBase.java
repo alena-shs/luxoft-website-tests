@@ -1,4 +1,5 @@
 package tests;
+
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import config.ProjectConfiguration;
@@ -31,6 +32,7 @@ public class TestBase {
         Selenide.open(baseUrl);
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
+
     @AfterEach
     void addAttachments() {
         Attach.screenshotAs("Last screenshot");

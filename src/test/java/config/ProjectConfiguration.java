@@ -15,7 +15,7 @@ public class ProjectConfiguration {
         Configuration.browser = webConfig.browser();
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
-        String remoteUrl = "https://" + authconfig.login() + ":" + authconfig.password() + "@" + authconfig.remoteUrl()  + "/wd/hub";
+        String remoteUrl = "https://" + authconfig.login() + ":" + authconfig.password() + "@" + authconfig.remoteUrl() + "/wd/hub";
         if (webConfig.isRemote()) {
             Configuration.remote = remoteUrl;
             DesiredCapabilities capabilities = new DesiredCapabilities();
