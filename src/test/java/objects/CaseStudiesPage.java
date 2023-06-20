@@ -23,10 +23,9 @@ public class CaseStudiesPage {
     }
 
     @Step("The case studies page has content (case studies)")
-    public CaseStudiesPage caseStudiesHasContent() {
+    public void caseStudiesHasContent() {
         caseStudiesCardsText.shouldHave(CollectionCondition.size(6));
         caseStudiesCardsImage.shouldHave(CollectionCondition.size(6));
-        return this;
     }
 
 

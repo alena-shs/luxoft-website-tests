@@ -11,7 +11,6 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class SearchPage {
     private final SelenideElement searchHeader = $(".search-results__header h3"),
-            activePage = $(".pagination-container .active-page"),
             searchResultsAmountText = $(".search-results__results--total");
     private final ElementsCollection searchResults = $$(".search-results__results--item h5");
 

@@ -20,11 +20,10 @@ public class IndustryPage {
     }
 
     @Step("The Industries page lists all the necessary industries")
-    public IndustryPage verifyIndustryList() {
+    public void verifyIndustryList() {
         industriesCardTexts.shouldHave(CollectionCondition.texts("Automotive", "Banking", "Capital Markets",
                 "Insurance", "Media", "Telecommunications", "Networking & Technology", "Retail and E-commerce", "Energy and Utilities",
                 "Oil and gas", "Manufacturing", "Healthcare and life sciences", "Travel and Hospitality",
                 "Transportation and logistics", "Consumer Goods"));
-        return this;
     }
 }
