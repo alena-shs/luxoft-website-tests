@@ -16,13 +16,15 @@
 ## :runner: Test cases run
 ### Automated test cases
 - Main page
-  - [x] The main page logo visibility
-  - [x] The correct amount of services listed in the OUR SERVICES section
-  - [x] The correct amount of social media links in the footer
+  - [x] Industry page opens after clicking on 'View all industries' button
+  - [x] Case studies page opens after clicking on 'View more case studies' button
 - Search page
-  - [x] The search results start from the first page
   - [x] The search header text correctness
   - [x] The correct amount of items on the search first page
+- Careers page
+  - [x] When searching for a jobs with a keyword, only openings with this keyword are shown
+  - [x] When searching for a jobs from the country, only this country's openings are shown
+  - [x] When searching for a jobs with a specialization, only this specialization's openings are shown
 ### Manual test cases
 - Main page
   - [x] The header navigation has clickable links

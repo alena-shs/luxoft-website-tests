@@ -1,10 +1,16 @@
 package tests;
 
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Owner("Alena Shomanova")
+@Story("Career page tests")
+@Tag("CareerPageTests")
 public class CareerPageTests extends TestBase {
-    @DisplayName("Correct job titles with keyword search")
+    @DisplayName("When searching for a jobs with a keyword, only openings with this keyword are shown")
     @Test
     void careerHasGivenKeyword() {
         String careerKeyword = "QA";
