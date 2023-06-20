@@ -1,13 +1,12 @@
 package objects;
 
-import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
     private final SelenideElement searchButton = $("#search-btn"),
@@ -15,7 +14,6 @@ public class MainPage {
             searchInputField = $("input[placeholder='Search...']"),
             caseStudiesButton = $(byText("View more case studies")),
             viewIndustriesButton = $(byText("View all industries"));
-    private final ElementsCollection ourServicesBlocks = $(".container-services").$$(".col");
 
     @Step("Open the main page")
     public MainPage openMainPage() {
