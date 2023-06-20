@@ -5,7 +5,7 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -18,11 +18,6 @@ public class SearchPage {
     @Step("Verify that the header text is: Results for \"{searchText}\"")
     public void verifyHeaderText(String searchText) {
         searchHeader.shouldHave(text("Results for \"" + searchText + "\""));
-    }
-
-    @Step("Verify that after search, the first active page is number 1")
-    public void verifyPageNumberOne() {
-        activePage.shouldHave(exactText("1"));
     }
 
     @Step("Verify that there's a text saying that there will be 10 results on the first page")

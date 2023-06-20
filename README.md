@@ -97,7 +97,7 @@ Please note that the following method will run the tests with the following defa
 + Browser version: **100.0**
 + Browser size: **1920x1080**
 
-To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/c18-Ailinyan-LuxoftWebsiteTests/), specially created for this project. ()
+To run this test through Jenkins, please use this [job](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-LuxoftWebsiteTests/), specially created for this project. ()
 The environment is set up for the Russian language, to run it please use the button with an :arrow_forward:.
 You can see the results via Allure Reports, or use the link to Allure TestOps.
 
@@ -111,7 +111,7 @@ The following page will open. You can keep the default credentials and press the
 <img src="images/jenkins-parameters.png" alt="How to run the tests with Jenkins" width="500">
 </p>
 
-# :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/c18-Ailinyan-MiniProject15/)</a>
+# :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-LuxoftWebsiteTests/allure/)</a>
 
 #### Overview
 The main page of the Allure report contains the following information blocks:
@@ -138,7 +138,7 @@ This page presents the standard distribution of the tests run by user stories an
 
 # :dart: [Allure TestOps](https://allure.autotests.cloud/project/2195/) integration
 
-> [AllureTestOps project link](https://allure.autotests.cloud/project/2195) (access request: admin@qa.guru)
+> [AllureTestOps project link](https://allure.autotests.cloud/project/2195/) (access request: admin@qa.guru)
 
 ### The main dashboard
 <p align="center">

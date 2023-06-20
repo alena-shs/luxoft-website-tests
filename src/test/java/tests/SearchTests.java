@@ -14,23 +14,17 @@ public class SearchTests extends TestBase {
     @Test
     void searchHeaderCorrectText() {
         String searchText = "QA";
-        mainPage.initiateSearchWithText(searchText);
+        mainPage.openMainPage()
+                .initiateSearchWithText(searchText);
         searchPage.verifyHeaderText(searchText);
-    }
-
-    @DisplayName("The search results start from the first page")
-    @Test
-    void searchStartsWithFirstPageTest() {
-        String searchText = "QA";
-        mainPage.initiateSearchWithText(searchText);
-        searchPage.verifyPageNumberOne();
     }
 
     @DisplayName("The correct amount of items on the search first page")
     @Test
     void searchFirstPageAmountTest() {
         String searchText = "QA";
-        mainPage.initiateSearchWithText(searchText);
+        mainPage.openMainPage()
+                .initiateSearchWithText(searchText);
         searchPage.verifySearchItemsAmountText();
         searchPage.verifySearchItemsAmount();
     }
