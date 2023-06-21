@@ -1,3 +1,10 @@
+# Please note that this repository is currently moving to the new remote server, so we recommend to run tests LOCALLY!
+- Please note that README.md needs to be updated, because I improved the quality of tests. (for example, the pictures are still showing the previous test scope)
+- However, all the tests run well LOCALLY. Please refer to "How to run" section to see how to do it.
+- If you run test remotely, you might encounter error 504 (Gateway Time-Out). This is a known issue, and the problem will be resolved ASAP.
+- I'm actively working on this repo. Fixes and new README.md will be released 2023-06-22.
+
+
 # :crystal_ball: Automated tests for Luxoft's official website
 <p align="center"><img width=30% title="LUXOFT" src="images/luxoft-new-white.svg">
 </p>
@@ -12,6 +19,7 @@
 + [Allure TestOps integration](#dart-allure-testops-integration)
 + [Test results](#trophy-test-results)
 + [Jira integration](#ticket-jira-integration)
+
 
 ## :runner: Test cases run
 ### Automated test cases
