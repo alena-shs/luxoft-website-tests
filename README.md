@@ -84,7 +84,7 @@ allure serve build/allure-results
 #### Remotely
 To run the automated tests:
 ```bash
-gradle clean test -Dlogin=user1 -Dpassword=1234 
+gradle clean test -Denv='remote' -Dlogin=user1 -Dpassword=1234 
 ```
 To get the report:
 ```bash
