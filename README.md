@@ -224,7 +224,7 @@ There's a video attachment for each test available.
   <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">
 </p>
 
-###  [Main Jira task for all Luxoft tasks](https://jira.autotests.cloud/browse/HOMEWORK-677)
+###  [Main Jira task for all Luxoft features](https://jira.autotests.cloud/browse/HOMEWORK-766)
 <p align="center">
   <img src="images/jira-task-main.PNG" alt="Main Jira ticket for LUXOFT" width="750">
 </p>
