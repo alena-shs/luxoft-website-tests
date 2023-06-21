@@ -91,7 +91,7 @@ To get the report:
 allure serve build/allure-results
 ```
 
-### Using [Jenkins](https://jenkins.autotests.cloud/job/c18-Ailinyan-LuxoftWebsiteTests/)
+### Using [Jenkins](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-LuxoftWebsiteTests/)
 
 > Jenkins access request: admin@qa.guru
 
@@ -131,7 +131,7 @@ The main page of the Allure report contains the following information blocks:
 #### Local run report
 
 <p align="center">
-  <img src="images/allure distributed - local.PNG" alt="Remote Allure Report" width="650">
+  <img src="images/allure distributed - local.png" alt="Local Allure Report" width="650">
 </p>
 
 #### Remote run report
@@ -144,9 +144,8 @@ The main page of the Allure report contains the following information blocks:
 This page presents the standard distribution of the tests run by user stories and test suites.
 
 <p align="center">
-  <img src="images/Allure Report steps.png" alt="Allure Report" width="650">
+  <img src="images/Allure Report steps.png" alt="Allure Report" width="500">
 </p>
-
 
 
 # :dart: [Allure TestOps](https://allure.autotests.cloud/project/2195/) integration
