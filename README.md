@@ -224,12 +224,12 @@ There's a video attachment for each test available.
   <img src="images/jira-issue.PNG" alt="The defect in Jira" width="750">
 </p>
 
-###  [Main page content layout Jira task](https://jira.autotests.cloud/browse/HOMEWORK-677)
+###  [Main Jira task for all Luxoft tasks](https://jira.autotests.cloud/browse/HOMEWORK-677)
 <p align="center">
-  <img src="images/jira-task-main.PNG" alt="The main page layout task" width="750">
+  <img src="images/jira-task-main.PNG" alt="Main Jira ticket for LUXOFT" width="750">
 </p>
 
-###  [Search from the main page Jira task](https://jira.autotests.cloud/browse/HOMEWORK-678)
+###  [Sample Jira task ticket](https://jira.autotests.cloud/browse/HOMEWORK-678)
 <p align="center">
   <img src="images/jira-task-search.PNG" alt="Search from the main page task" width="750">
 </p>
