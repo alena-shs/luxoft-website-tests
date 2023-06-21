@@ -1,10 +1,3 @@
-# Please note that this repository is currently moving to the new remote server, so we recommend to run tests LOCALLY!
-- Please note that README.md needs to be updated, because I improved the quality of tests. (for example, the pictures are still showing the previous test scope)
-- However, all the tests run well LOCALLY. Please refer to "How to run" section to see how to do it.
-- If you run test remotely, you might encounter error 504 (Gateway Time-Out). This is a known issue, and the problem will be resolved ASAP.
-- I'm actively working on this repo. Fixes and new README.md will be released 2023-06-22.
-
-
 # :crystal_ball: Automated tests for Luxoft's official website
 <p align="center"><img width=30% title="LUXOFT" src="images/luxoft-new-white.svg">
 </p>
@@ -124,6 +117,7 @@ The following page will open. You can keep the default credentials and press the
 # :bar_chart: <a name="AllureReports">Final report in [Allure Reports](https://jenkins.autotests.cloud/job/Students/job/c18-Ailinyan-LuxoftWebsiteTests/allure/)</a>
 
 #### Overview
+
 The main page of the Allure report contains the following information blocks:
 
 >- <code><strong>*ALLURE REPORT*</strong></code> - displays the following info for the given run:
@@ -133,8 +127,17 @@ The main page of the Allure report contains the following information blocks:
 >- <code><strong>*TREND*</strong></code> - a line chart that displays the trend of passing tests from build to build
 >- <code><strong>*SUITES*</strong></code> - displays the distribution of test results across test suites
 >- <code><strong>*CATEGORIES*</strong></code> - displays the distribution of failed tests sorted by defect types
+
+#### Local run report
+
 <p align="center">
-  <img src="images/allure distributed.PNG" alt="Allure Report" width="650">
+  <img src="images/allure distributed - local.PNG" alt="Remote Allure Report" width="650">
+</p>
+
+#### Remote run report
+> Please note that some tests might be yellow due to the remote server unavailability.
+<p align="center">
+  <img src="images/allure distributed.PNG" alt="Remote Allure Report" width="650">
 </p>
 
 ### List of tests with a description of steps and visualization of results
